@@ -1,0 +1,5 @@
+https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL3SMP_E/006/2015/03/31/SMAP_L3_SM_P_E_20150331_R19240_001.h5
+https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL3SMP_E/006/2015/04/01/SMAP_L3_SM_P_E_20150401_R19240_001.h5
+https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL3SMP_E/006/2015/04/02/SMAP_L3_SM_P_E_20150402_R19240_001.h5
+https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL3SMP_E/006/2015/04/03/SMAP_L3_SM_P_E_20150403_R19240_001.h5
+https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP/SPL3SMP_E/006/2015/04/04/SMAP_L3_SM_P_E_20150404_R19240_001.h5

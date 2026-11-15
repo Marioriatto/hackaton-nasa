@@ -1,0 +1,10 @@
+{
+  "description": "Ayuda a agricultores a evaluar condiciones que podrían favorecer el transporte de nutrientes, combinando registros de fertilizantes con datos de precipitación NASA GPM.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
