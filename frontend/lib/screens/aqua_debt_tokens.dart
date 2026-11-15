@@ -103,7 +103,6 @@ class AquaScaffold extends StatelessWidget {
                 ),
               ),
             ),
-            if (footer) const AquaFooter(),
           ],
         ),
       ),
@@ -147,42 +146,7 @@ class AquaHeader extends StatelessWidget {
         children: [
           Row(
             children: [
-              Container(
-                width: 30,
-                height: 32,
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  color: AquaColors.primary,
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: const Text(
-                  '≈',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 24,
-                    height: 1,
-                  ),
-                ),
-              ),
-              const SizedBox(width: 12),
-              const Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text('AquaDebt', style: AquaText.title),
-                  Text(
-                    'OBSERVAR. PREVENIR. PROTEGER.',
-                    style: TextStyle(
-                      fontFamily: AquaText.font,
-                      fontSize: 8,
-                      fontWeight: FontWeight.w600,
-                      color: AquaColors.muted,
-                      letterSpacing: .8,
-                    ),
-                  ),
-                ],
-              ),
               const Spacer(),
-              const DemoPill(text: '●  Modo demostración'),
             ],
           ),
           const SizedBox(height: 14),
@@ -364,38 +328,3 @@ class PrimaryButton extends StatelessWidget {
   }
 }
 
-class AquaFooter extends StatelessWidget {
-  const AquaFooter({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      color: AquaColors.footer,
-      padding: const EdgeInsets.fromLTRB(20, 16, 20, 18),
-      child: const Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            'Este indicador muestra condiciones potenciales de transporte de nutrientes. No confirma contaminación del agua subterránea.',
-            style: TextStyle(
-              fontFamily: AquaText.font,
-              fontSize: 13,
-              fontWeight: FontWeight.w500,
-              color: Color(0xFF345A49),
-            ),
-          ),
-          SizedBox(height: 14),
-          Text(
-            'AquaDebt | NASA Space Apps Challenge 2026',
-            style: AquaText.small,
-          ),
-          Text(
-            'Prototipo científico · Datos de ejemplo, no observaciones reales',
-            style: AquaText.small,
-          ),
-        ],
-      ),
-    );
-  }
-}
